@@ -1,4 +1,4 @@
-package com.gayal.DynamicArray;
+package com.gayal.data.structures.DynamicArray;
 
 public class DynamicArrayDemo {
 
