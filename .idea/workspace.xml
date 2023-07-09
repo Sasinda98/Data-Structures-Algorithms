@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58425ca2-bda0-4e7a-92ec-17f02b862200" name="Changes" comment="Refactor package naming convention">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gayal/algorithms/bubble/sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gayal/algorithms/bubble/sort/BubbleSortApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gayal/utils/ArrayHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gayal/utils/FormattedOutputHelper.java" afterDir="false" />
+    <list default="true" id="58425ca2-bda0-4e7a-92ec-17f02b862200" name="Changes" comment="Implement bubble sort and refactor.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gayal/algorithms/insertion/sort/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gayal/algorithms/insertion/sort/InsertionSortApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gayal/algorithms/selection/sort/SelectionSortApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gayal/algorithms/selection/sort/SelectionSortApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +44,7 @@
       <recent name="com.gayal.algorithms.insertion.sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BubbleSortApp">
+  <component name="RunManager" selected="Application.InsertionSortApp">
     <configuration name="BubbleSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gayal.algorithms.bubble.sort.BubbleSortApp" />
       <module name="Data-Structures-Algorithms" />
@@ -62,11 +59,11 @@
       </method>
     </configuration>
     <configuration name="DynamicArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gayal.data.structures.DynamicArray.DynamicArrayDemo" />
-      <module name="Data-Structures" />
+      <option name="MAIN_CLASS_NAME" value="com.gayal.data.structures.dynamic.array.DynamicArrayDemo" />
+      <module name="Data-Structures-Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gayal.data.structures.DynamicArray.*" />
+          <option name="PATTERN" value="com.gayal.data.structures.dynamic.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gayal.data.structures.LinkedList.LinkedListDemo" />
-      <module name="Data-Structures" />
+    <configuration name="SelectionSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gayal.algorithms.selection.sort.SelectionSortApp" />
+      <module name="Data-Structures-Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gayal.data.structures.LinkedList.*" />
+          <option name="PATTERN" value="com.gayal.algorithms.selection.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gayal.algorithms.selection.sort.SelectionSortApp" />
+    <configuration name="com.gayal.data.structures.linked.list.LinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gayal.data.structures.linked.list.LinkedListDemo" />
       <module name="Data-Structures-Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gayal.algorithms.selection.sort.*" />
+          <option name="PATTERN" value="com.gayal.data.structures.linked.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BubbleSortApp" />
-        <item itemvalue="Application.SelectionSortApp" />
         <item itemvalue="Application.InsertionSortApp" />
-        <item itemvalue="Application.LinkedListDemo" />
+        <item itemvalue="Application.SelectionSortApp" />
         <item itemvalue="Application.DynamicArrayDemo" />
+        <item itemvalue="Application.com.gayal.data.structures.linked.list.LinkedListDemo" />
+        <item itemvalue="Application.BubbleSortApp" />
       </list>
     </recent_temporary>
   </component>
@@ -166,14 +163,22 @@
       <option name="project" value="LOCAL" />
       <updated>1688892094587</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implement bubble sort and refactor.">
+      <created>1688902590549</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688902590549</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fix spacing" />
     <MESSAGE value="Implement selection sort algorithm" />
     <MESSAGE value="Refactor package naming convention" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor package naming convention" />
+    <MESSAGE value="Implement bubble sort and refactor." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement bubble sort and refactor." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Data_Structures$BubbleSortApp.ic" NAME="BubbleSortApp Coverage Results" MODIFIED="1688902313806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
