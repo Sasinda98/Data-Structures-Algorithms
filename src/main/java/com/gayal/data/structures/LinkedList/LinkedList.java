@@ -107,6 +107,7 @@ public class LinkedList<T> {
             contents.append(" <-> ");
             current = current.prev;
         }
+
         String tailTrimmed = contents.substring(0, contents.length() - 5);
         System.out.println("[ " + tailTrimmed + " ]");
 
