@@ -1,4 +1,4 @@
-package com.gayal.data.structures.LinkedList;
+package com.gayal.data.structures.linked.list;
 
 import java.util.Objects;
 
